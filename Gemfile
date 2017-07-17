@@ -56,3 +56,5 @@ gem 'friendly_id', '~>5.1.0'
 gem 'devise', '~> 4.3'
 
 gem 'bootstrap', '~> 4.0.0alpha6'
+
+gem 'special_view_tool', git: 'https://github.com/alongusername/special_view_tool'
