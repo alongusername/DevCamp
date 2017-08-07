@@ -16,25 +16,22 @@
   <body>
 
     <%= render 'shared/blog_nav' %>
-
     <%= render 'shared/blog_masthead' %>
 
     <div class="container">
 
       <div class="row">
-        
-        
+
         <%= yield %>
-        
-        <%= render'shared/blog_sidebar' %>
-        
+
+        <%= render 'shared/blog_sidebar' %>
       </div>
-        
-        <%= render 'shared/blog_footer' %>
-        
-        <% alert_generator error %>
-        
-        <%= source_helper("blog") %>
+
+      <%= render 'shared/blog_footer' %>
+
+      <%= alert %>
+
+      <%= source_helper("blog") %>
     </div>
   </body>
 </html>
