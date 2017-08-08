@@ -67,7 +67,7 @@ module ApplicationHelper
     "active" if current_page? path
   end
   
-  def alert
+  def alerts
     alert = (flash[:alert] || flash[:error] || flash[:notice])
       
     if alert
